@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20063" started-at="2020-03-26T07:27:51Z" finished-at="2020-03-26T07:28:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20063" started-at="2020-03-26T07:27:51Z" finished-at="2020-03-26T07:28:11Z">
+      <class name="testcase1.GoogleTC1">
+        <test-method status="PASS" signature="TC01()[pri:0, instance:testcase1.GoogleTC1@7f77e91b]" name="TC01" duration-ms="20027" started-at="2020-03-26T12:57:51Z" finished-at="2020-03-26T12:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+      </class> <!-- testcase1.GoogleTC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
