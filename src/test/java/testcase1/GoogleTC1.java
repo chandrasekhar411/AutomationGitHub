@@ -15,7 +15,7 @@ public class GoogleTC1 {
         WebDriver driver = new ChromeDriver(); 
 		driver.get("http://google.co.in/");
 		driver.manage().window().maximize();
-		driver.findElement(By.name("q")).sendKeys("facebook");
+		driver.findElement(By.name("q")).sendKeys("Samsung");
 		driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
 		Thread.sleep(3000);
 		driver.close();
@@ -47,11 +47,14 @@ public class GoogleTC1 {
       WebDriver driver = new ChromeDriver(); 
 		driver.get("http://google.co.in/");
 		driver.manage().window().maximize();
-		driver.findElement(By.name("q")).sendKeys("Gmail");
+		driver.findElement(By.name("q")).sendKeys("Facebook");
 		driver.findElement(By.name("q")).sendKeys(Keys.RETURN);
 		Thread.sleep(3000);
 		driver.close();
 
 		
 }
+  
+  
+  
 }
